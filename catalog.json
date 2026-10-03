@@ -7,7 +7,7 @@
     "details": "Japanese bred",
     "size": "25 cm",
     "rate": "MVR 850",
-    "avail": "available",
+    "avail": 5,
     "images": [
       "https://res.cloudinary.com/rje7m313/image/upload/v1791041248/f06_jlsdaq.jpg"
     ],
@@ -23,7 +23,7 @@
     "details": "Show quality",
     "size": "30 cm",
     "rate": "MVR 1200",
-    "avail": "low",
+    "avail": 12,
     "images": [
       "https://res.cloudinary.com/rje7m313/image/upload/v1791041237/g03_lhrui5.jpg"
     ],
@@ -39,7 +39,7 @@
     "details": "Ready male",
     "size": "5 cm",
     "rate": "MVR 250",
-    "avail": "coming",
+    "avail": 14,
     "images": [
       "https://res.cloudinary.com/rje7m313/image/upload/v1791041165/f01_zdkphi.jpg"
     ],
@@ -55,7 +55,7 @@
     "details": "—",
     "size": "3 cm",
     "rate": "MVR 40",
-    "avail": "out",
+    "avail": 8,
     "images": [
       "https://res.cloudinary.com/rje7m313/image/upload/v1791041224/g01_fvufox.jpg",
       "https://res.cloudinary.com/rje7m313/image/upload/v1791041180/f05_luhw2o.jpg",
