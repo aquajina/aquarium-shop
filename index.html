@@ -1,27 +1,162 @@
-<script>
-fetch('catalog.json')
-  .then(r => r.json())
-  .then(data => {
-    document.getElementById('status').textContent = 'Loaded ' + data.length + ' items';
-    const feed = document.getElementById('feed');
-    data.forEach(item => {
-      const div = document.createElement('div');
-      div.style.cssText = 'border:1px solid #ccc; margin:10px; padding:10px; max-width:300px;';
+<!DOCTYPE html>
+<html lang="en">
 
-      const img = document.createElement('img');
-      img.src = (item.images && item.images[0]) || '';
-      img.style.cssText = 'width:100%; height:200px; object-fit:cover; display:block;';
+<head>
+  <meta charset="UTF-8">
 
-      const info = document.createElement('div');
-      info.style.cssText = 'margin-top:8px; font-size:14px;';
-      info.textContent = item.id + ' — ' + item.name + ' — ' + item.rate + ' — ' + item.avail;
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      div.appendChild(img);
-      div.appendChild(info);
-      feed.appendChild(div);
-    });
-  })
-  .catch(err => {
-    document.getElementById('status').textContent = 'ERROR: ' + err.message;
-  });
-</script>
+  <title>JS AQUA</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+
+  <header class="topbar">
+
+    <div>
+      <div class="brand-name">JS AQUA</div>
+      <div class="brand-subtitle">Aquarium Catalogue</div>
+    </div>
+
+    <div class="header-actions">
+
+      <button id="searchButton" class="icon-button">
+        🔍
+      </button>
+
+    </div>
+
+  </header>
+
+
+  <!-- =========================
+       SEARCH
+  ========================== -->
+
+  <section id="searchPanel" class="search-panel hidden">
+
+    <input
+      id="searchInput"
+      type="search"
+      placeholder="Search fish..."
+    >
+
+  </section>
+
+
+  <!-- =========================
+       CATEGORIES
+  ========================== -->
+
+  <nav id="categoryBar" class="category-bar">
+
+    <button
+      class="category-button active"
+      data-category="all">
+      All
+    </button>
+
+  </nav>
+
+
+  <!-- =========================
+       PRODUCTS
+  ========================== -->
+
+  <main>
+
+    <div id="statusMessage" class="status-message">
+      Loading catalogue...
+    </div>
+
+    <section
+      id="catalogGrid"
+      class="catalog-grid">
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       PRODUCT POPUP
+  ========================== -->
+
+  <div
+    id="productModal"
+    class="modal hidden">
+
+    <div
+      id="modalBackdrop"
+      class="modal-backdrop">
+    </div>
+
+
+    <article class="product-modal">
+
+      <button
+        id="closeModal"
+        class="close-button">
+        ×
+      </button>
+
+
+      <div
+        id="modalImages"
+        class="modal-images">
+      </div>
+
+
+      <div class="modal-content">
+
+        <div
+          id="modalCategory"
+          class="modal-category">
+        </div>
+
+        <h2 id="modalName"></h2>
+
+
+        <div class="modal-meta">
+
+          <span id="modalSize"></span>
+
+          <span id="modalId"></span>
+
+        </div>
+
+
+        <div
+          id="modalRate"
+          class="modal-rate">
+        </div>
+
+
+        <div
+          id="modalAvailability"
+          class="modal-availability">
+        </div>
+
+
+        <p
+          id="modalDetails"
+          class="modal-details">
+        </p>
+
+
+      </div>
+
+    </article>
+
+  </div>
+
+
+  <script src="app.js"></script>
+
+</body>
+</html>
