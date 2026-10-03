@@ -1,0 +1,70 @@
+[
+  {
+    "order": 1,
+    "id": "F001",
+    "name": "Kohaku Koi",
+    "category": "Koi",
+    "details": "Japanese bred",
+    "size": "25 cm",
+    "rate": "MVR 850",
+    "avail": "available",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041248/f06_jlsdaq.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041248/f06_jlsdaq.jpg"
+    ]
+  },
+  {
+    "order": 2,
+    "id": "F002",
+    "name": "Sanke Koi",
+    "category": "Koi",
+    "details": "Show quality",
+    "size": "30 cm",
+    "rate": "MVR 1200",
+    "avail": "low",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041237/g03_lhrui5.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041237/g03_lhrui5.jpg"
+    ]
+  },
+  {
+    "order": 3,
+    "id": "F003",
+    "name": "Halfmoon Betta",
+    "category": "Betta",
+    "details": "Ready male",
+    "size": "5 cm",
+    "rate": "MVR 250",
+    "avail": "coming",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041165/f01_zdkphi.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041165/f01_zdkphi.jpg"
+    ]
+  },
+  {
+    "order": 4,
+    "id": "F004",
+    "name": "Old Guppy",
+    "category": "Guppy",
+    "details": "—",
+    "size": "3 cm",
+    "rate": "MVR 40",
+    "avail": "out",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041224/g01_fvufox.jpg",
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041180/f05_luhw2o.jpg",
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041191/f02_k18ymc.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041224/g01_fvufox.jpg",
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041180/f05_luhw2o.jpg",
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041191/f02_k18ymc.jpg"
+    ]
+  }
+]
