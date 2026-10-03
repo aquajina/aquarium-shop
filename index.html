@@ -1,94 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#0a1f2b">
-<title>Aquarium Shop</title>
-<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test</title>
 </head>
 <body>
 
-<header class="bar">
-  <div class="bar-row">
-    <div class="brand"><span>🐠</span><h1>Aquarium Shop</h1></div>
-    <div class="search">
-      <input id="search" type="search" placeholder="Search fish…" autocomplete="off">
-    </div>
-  </div>
-  <div id="cats" class="cats"></div>
-</header>
+<h1>Aquarium Shop — Test</h1>
+<div id="status">Loading…</div>
+<pre id="output"></pre>
 
-<button id="cart-btn" class="cart-fab" aria-label="Cart">
-  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
-    <circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/>
-    <path d="M2 3h3l2.7 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L22 7H6"/>
-  </svg>
-  <span id="cart-count" class="cart-count">0</span>
-</button>
+<script>
+fetch('catalog.json')
+  .then(r => {
+    document.getElementById('status').textContent = 'HTTP ' + r.status;
+    return r.text();
+  })
+  .then(text => {
+    document.getElementById('output').textContent = text.slice(0, 5000);
+  })
+  .catch(err => {
+    document.getElementById('status').textContent = 'ERROR: ' + err.message;
+  });
+</script>
 
-<main>
-  <p id="count" class="count"></p>
-  <section id="feed" class="feed" data-mode="2"></section>
-  <div id="sentinel" class="sentinel"></div>
-  <div id="state" class="state" hidden></div>
-</main>
-
-<footer class="foot"><p>© <span id="year"></span> Aquarium Shop</p></footer>
-
-<div id="focus" class="focus" hidden>
-  <div class="focus-blur" id="focus-blur"></div>
-  <button class="focus-close" data-close aria-label="Close">✕</button>
-  <div class="focus-card">
-    <div class="focus-media zoom-wrap" id="zoom-wrap">
-      <img id="f-img" alt="">
-      <div id="f-dots" class="dots"></div>
-      <button class="gal-prev" id="gal-prev" aria-label="Previous">‹</button>
-      <button class="gal-next" id="gal-next" aria-label="Next">›</button>
-    </div>
-    <div class="focus-body">
-      <span id="f-cat" class="pill"></span>
-      <h2 id="f-name"></h2>
-      <p id="f-details" class="f-details"></p>
-      <div class="f-rows">
-        <div><span>ID</span><strong id="f-id"></strong></div>
-        <div><span>Size</span><strong id="f-size"></strong></div>
-        <div><span>Rate</span><strong id="f-rate"></strong></div>
-        <div><span>Status</span><strong id="f-avail"></strong></div>
-      </div>
-      <div class="f-actions">
-        <button id="f-add" class="btn-primary">Add to Cart</button>
-        <a id="f-order" class="btn-wa" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-            <path d="M20.5 3.5A11 11 0 0 0 3.6 17.3L2 22l4.8-1.6a11 11 0 0 0 16.5-9.5c0-2.9-1.1-5.7-2.8-7.4zM12 20.1c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3 .9.9-2.9-.2-.3a9 9 0 1 1 7.3 3.8z"/>
-          </svg>
-          <span>Order on WhatsApp</span>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="cart" class="cart" hidden>
-  <div class="cart-backdrop" data-cart-close></div>
-  <aside class="cart-panel" role="dialog" aria-modal="true">
-    <header class="cart-head">
-      <h2>Your Cart</h2>
-      <button class="cart-x" data-cart-close aria-label="Close">✕</button>
-    </header>
-    <div id="cart-items" class="cart-items"></div>
-    <footer class="cart-foot">
-      <div class="cart-total"><span>Total</span><strong id="cart-total">—</strong></div>
-      <a id="cart-send" class="btn-wa" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-          <path d="M20.5 3.5A11 11 0 0 0 3.6 17.3L2 22l4.8-1.6a11 11 0 0 0 16.5-9.5c0-2.9-1.1-5.7-2.8-7.4zM12 20.1c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3 .9.9-2.9-.2-.3a9 9 0 1 1 7.3 3.8z"/>
-        </svg>
-        <span>Send Cart via WhatsApp</span>
-      </a>
-    </footer>
-  </aside>
-</div>
-
-<script src="script.js"></script>
 </body>
 </html>
