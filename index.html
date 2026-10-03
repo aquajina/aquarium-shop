@@ -3,22 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Test</title>
+<title>Aquarium Shop</title>
 </head>
 <body>
 
-<h1>Aquarium Shop — Test</h1>
+<h1>Aquarium Shop</h1>
 <div id="status">Loading…</div>
-<pre id="output"></pre>
+<div id="feed"></div>
 
 <script>
 fetch('catalog.json')
-  .then(r => {
-    document.getElementById('status').textContent = 'HTTP ' + r.status;
-    return r.text();
-  })
-  .then(text => {
-    document.getElementById('output').textContent = text.slice(0, 5000);
+  .then(r => r.json())
+  .then(data => {
+    document.getElementById('status').textContent = 'Loaded ' + data.length + ' items';
+    const feed = document.getElementById('feed');
+    data.forEach(item => {
+      const div = document.createElement('div');
+      div.textContent = item.id + ' — ' + item.name + ' — ' + item.rate;
+      feed.appendChild(div);
+    });
   })
   .catch(err => {
     document.getElementById('status').textContent = 'ERROR: ' + err.message;
