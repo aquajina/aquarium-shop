@@ -2,11 +2,11 @@
   {
     "order": 1,
     "id": "F001",
-    "name": "Kohaku Koi",
-    "category": "Koi",
-    "details": "Japanese bred",
-    "size": "25 cm",
-    "rate": "MVR 850",
+    "name": "Assorted Molly",
+    "category": "Molly",
+    "details": "Locally bred molly",
+    "size": "M",
+    "rate": "20",
     "avail": "6",
     "images": [
       "https://res.cloudinary.com/rje7m313/image/upload/v1791041248/f06_jlsdaq.jpg"
@@ -18,12 +18,12 @@
   {
     "order": 2,
     "id": "F002",
-    "name": "Sanke Koi",
-    "category": "Koi",
-    "details": "Show quality",
-    "size": "30 cm",
-    "rate": "MVR 1200",
-    "avail": "3",
+    "name": "Assorted Betta (Fighting Fish)",
+    "category": "Betta",
+    "details": "Normal Grade",
+    "size": "M",
+    "rate": "100",
+    "avail": "20",
     "images": [
       "https://res.cloudinary.com/rje7m313/image/upload/v1791041237/g03_lhrui5.jpg"
     ],
@@ -38,7 +38,7 @@
     "category": "Betta",
     "details": "Ready male",
     "size": "5 cm",
-    "rate": "MVR 250",
+    "rate": "150",
     "avail": "1",
     "images": [
       "https://res.cloudinary.com/rje7m313/image/upload/v1791041165/f01_zdkphi.jpg"
@@ -49,13 +49,33 @@
   },
   {
     "order": 4,
+    "id": "F004",
+    "name": "Assorted Butterfly Koi",
+    "category": "Koi",
+    "details": "Long fin",
+    "size": "2.5 - 3 inch",
+    "rate": "75",
+    "avail": "8",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041224/g01_fvufox.jpg",
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041180/f05_luhw2o.jpg",
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041191/f02_k18ymc.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041224/g01_fvufox.jpg",
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041180/f05_luhw2o.jpg",
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041191/f02_k18ymc.jpg"
+    ]
+  },
+  {
+    "order": 5,
     "id": "F005",
-    "name": "Old Guppy",
-    "category": "Guppy",
-    "details": "—",
-    "size": "3 cm",
-    "rate": "MVR 40",
-    "avail": "0",
+    "name": "Butterfly Koi Pkg (8 koi)",
+    "category": "Koi",
+    "details": "Long fin",
+    "size": "2.5 - 3 inch",
+    "rate": "475",
+    "avail": "8",
     "images": [
       "https://res.cloudinary.com/rje7m313/image/upload/v1791041224/g01_fvufox.jpg",
       "https://res.cloudinary.com/rje7m313/image/upload/v1791041180/f05_luhw2o.jpg",
