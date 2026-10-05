@@ -31,7 +31,7 @@ Number   = available count (1-3 = Low Stock badge)
 /* Your WhatsApp number — country code + number, no + or spaces.
    Example Maldives: "9607777777"
    Leave as "" to hide WhatsApp buttons during testing. */
-const SHOP_WHATSAPP = "";
+const SHOP_WHATSAPP = "9507589958";
 
 /* Currency label used in the cart total */
 const CURRENCY = "MVR";
