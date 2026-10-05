@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>JS AQUA</title>
-
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -26,8 +22,13 @@
 
     <div class="header-actions">
 
-      <button id="searchButton" class="icon-button">
+      <button id="searchButton" class="icon-button" aria-label="Search">
         🔍
+      </button>
+
+      <button id="cartButton" class="icon-button cart-icon" aria-label="Cart">
+        🛒
+        <span id="cartCount" class="cart-count">0</span>
       </button>
 
     </div>
@@ -96,21 +97,42 @@
       class="modal-backdrop">
     </div>
 
-
     <article class="product-modal">
 
       <button
         id="closeModal"
-        class="close-button">
+        class="close-button"
+        aria-label="Close">
         ×
       </button>
 
+      <div class="modal-gallery">
 
-      <div
-        id="modalImages"
-        class="modal-images">
+        <div
+          id="modalImages"
+          class="modal-images">
+        </div>
+
+        <button
+          id="galleryPrev"
+          class="gallery-arrow prev hidden"
+          aria-label="Previous photo">
+          ‹
+        </button>
+
+        <button
+          id="galleryNext"
+          class="gallery-arrow next hidden"
+          aria-label="Next photo">
+          ›
+        </button>
+
+        <div
+          id="galleryDots"
+          class="gallery-dots hidden">
+        </div>
+
       </div>
-
 
       <div class="modal-content">
 
@@ -121,7 +143,6 @@
 
         <h2 id="modalName"></h2>
 
-
         <div class="modal-meta">
 
           <span id="modalSize"></span>
@@ -130,28 +151,100 @@
 
         </div>
 
-
         <div
           id="modalRate"
           class="modal-rate">
         </div>
-
 
         <div
           id="modalAvailability"
           class="modal-availability">
         </div>
 
-
         <p
           id="modalDetails"
           class="modal-details">
         </p>
 
+        <div class="modal-actions">
+
+          <button
+            id="addToCartButton"
+            class="action-button cart-button">
+            Add to Cart
+          </button>
+
+          <a
+            id="whatsappButton"
+            class="action-button whatsapp-button"
+            target="_blank"
+            rel="noopener">
+            Order on WhatsApp
+          </a>
+
+        </div>
 
       </div>
 
     </article>
+
+  </div>
+
+
+  <!-- =========================
+       CART DRAWER
+  ========================== -->
+
+  <div
+    id="cartDrawer"
+    class="cart-drawer hidden">
+
+    <div
+      id="cartBackdrop"
+      class="cart-backdrop">
+    </div>
+
+    <aside class="cart-panel">
+
+      <header class="cart-header">
+
+        <h2>Your Cart</h2>
+
+        <button
+          id="closeCart"
+          class="close-button cart-close"
+          aria-label="Close cart">
+          ×
+        </button>
+
+      </header>
+
+      <div
+        id="cartItems"
+        class="cart-items">
+      </div>
+
+      <footer class="cart-footer">
+
+        <div class="cart-total-row">
+
+          <span>Total</span>
+
+          <strong id="cartTotal">—</strong>
+
+        </div>
+
+        <a
+          id="cartWhatsappButton"
+          class="action-button whatsapp-button"
+          target="_blank"
+          rel="noopener">
+          Send Cart via WhatsApp
+        </a>
+
+      </footer>
+
+    </aside>
 
   </div>
 
