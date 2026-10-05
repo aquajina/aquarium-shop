@@ -86,5 +86,25 @@
       "https://res.cloudinary.com/rje7m313/image/upload/v1791041180/f05_luhw2o.jpg",
       "https://res.cloudinary.com/rje7m313/image/upload/v1791041191/f02_k18ymc.jpg"
     ]
+  },
+  {
+    "order": 6,
+    "id": "F007",
+    "name": "Spong Filter",
+    "category": "Filter",
+    "details": "Spong filter black color round",
+    "size": "5 inch",
+    "rate": "250",
+    "avail": "4",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041224/g01_fvufox.jpg",
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041180/f05_luhw2o.jpg",
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041191/f02_k18ymc.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041224/g01_fvufox.jpg",
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041180/f05_luhw2o.jpg",
+      "https://res.cloudinary.com/rje7m313/image/upload/v1791041191/f02_k18ymc.jpg"
+    ]
   }
 ]
