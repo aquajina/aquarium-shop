@@ -97,14 +97,10 @@
     "rate": "250",
     "avail": "4",
     "images": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041224/g01_fvufox.jpg",
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041180/f05_luhw2o.jpg",
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041191/f02_k18ymc.jpg"
+      "https://pixabay.com/images/download/u_fg0tkeqgiy-servers-7320576_1920.png"
     ],
     "heroes": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041224/g01_fvufox.jpg",
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041180/f05_luhw2o.jpg",
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041191/f02_k18ymc.jpg"
+      "https://pixabay.com/images/download/u_fg0tkeqgiy-servers-7320576_1920.png"
     ]
   }
 ]
