@@ -2,105 +2,113 @@
   {
     "order": 1,
     "id": "F001",
-    "name": "Assorted Molly",
+    "name": "Lyretail Molly (Assorted)",
     "category": "Molly",
-    "details": "Locally bred molly",
-    "size": "M",
-    "rate": "20",
-    "avail": "6",
+    "details": "",
+    "size": "L",
+    "rate": "25",
+    "avail": "50",
     "images": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041248/f06_jlsdaq.jpg"
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_224244_185_1__copy_927x927_eimz1i.jpg"
     ],
     "heroes": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041248/f06_jlsdaq.jpg"
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_224244_185_1__copy_927x927_eimz1i.jpg"
     ]
   },
   {
     "order": 2,
     "id": "F002",
-    "name": "Assorted Betta (Fighting Fish)",
-    "category": "Betta",
-    "details": "Normal Grade",
-    "size": "M",
-    "rate": "100",
-    "avail": "20",
+    "name": "Creamsicle Molly",
+    "category": "Molly",
+    "details": "Appearance: Features a vibrant orange-and-white or creamy orange body, often with a gradient white underside and flowing, extended lyretail fins",
+    "size": "L",
+    "rate": "90",
+    "avail": "40",
     "images": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041237/g03_lhrui5.jpg"
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007249/IMG_20261014_224000_666_copy_951x951_sempt3.jpg"
     ],
     "heroes": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041237/g03_lhrui5.jpg"
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007249/IMG_20261014_224000_666_copy_951x951_sempt3.jpg"
     ]
   },
   {
     "order": 3,
     "id": "F003",
-    "name": "Halfmoon Betta",
-    "category": "Betta",
-    "details": "Ready male",
-    "size": "5 cm",
-    "rate": "150",
-    "avail": "1",
+    "name": "Balloon Molly (Assorted)",
+    "category": "Molly",
+    "details": "",
+    "size": "",
+    "rate": "35",
+    "avail": "50",
     "images": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041165/f01_zdkphi.jpg"
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007248/IMG_20261014_224239_933_copy_789x1052_vb2fjb.jpg"
     ],
     "heroes": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041165/f01_zdkphi.jpg"
-    ]
-  },
-  {
-    "order": 4,
-    "id": "F004",
-    "name": "Assorted Butterfly Koi",
-    "category": "Koi",
-    "details": "Long fin",
-    "size": "2.5 - 3 inch",
-    "rate": "75",
-    "avail": "8",
-    "images": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041224/g01_fvufox.jpg",
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041180/f05_luhw2o.jpg",
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041191/f02_k18ymc.jpg"
-    ],
-    "heroes": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041224/g01_fvufox.jpg",
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041180/f05_luhw2o.jpg",
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041191/f02_k18ymc.jpg"
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007248/IMG_20261014_224239_933_copy_789x1052_vb2fjb.jpg"
     ]
   },
   {
     "order": 5,
-    "id": "F005",
-    "name": "Butterfly Koi Pkg (8 koi)",
-    "category": "Koi",
-    "details": "Long fin",
-    "size": "2.5 - 3 inch",
-    "rate": "475",
-    "avail": "8",
+    "id": "F004",
+    "name": "Platinum Lyretail Molly",
+    "category": "Molly",
+    "details": "",
+    "size": "",
+    "rate": "45",
+    "avail": "35",
     "images": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041224/g01_fvufox.jpg",
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041180/f05_luhw2o.jpg",
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041191/f02_k18ymc.jpg"
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007248/IMG_20261014_224021_245_1__copy_903x903_h9ypyz.jpg"
     ],
     "heroes": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041224/g01_fvufox.jpg",
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041180/f05_luhw2o.jpg",
-      "https://res.cloudinary.com/rje7m313/image/upload/v1791041191/f02_k18ymc.jpg"
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007248/IMG_20261014_224021_245_1__copy_903x903_h9ypyz.jpg"
     ]
   },
   {
     "order": 6,
-    "id": "F007",
-    "name": "Spong Filter",
-    "category": "Filter",
-    "details": "Spong filter black color round",
-    "size": "5 inch",
-    "rate": "250",
-    "avail": "4",
+    "id": "F005",
+    "name": "Fancy Guppy (Assorted Special )",
+    "category": "Guppy",
+    "details": "",
+    "size": "",
+    "rate": "25",
+    "avail": "65",
     "images": [
-      "https://pixabay.com/images/download/u_fg0tkeqgiy-servers-7320576_1920.png"
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_223734_973_1__copy_564x564_uyh1gk.jpg"
     ],
     "heroes": [
-      "https://pixabay.com/images/download/u_fg0tkeqgiy-servers-7320576_1920.png"
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_223734_973_1__copy_564x564_uyh1gk.jpg"
+    ]
+  },
+  {
+    "order": 7,
+    "id": "F006",
+    "name": "Tuxedo Koi Guppy",
+    "category": "Guppy",
+    "details": "",
+    "size": "",
+    "rate": "35",
+    "avail": "50",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_223929_700_copy_1110x1110_a4fbqi.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_223929_700_copy_1110x1110_a4fbqi.jpg"
+    ]
+  },
+  {
+    "order": 8,
+    "id": "F007",
+    "name": "Swordtail Assorted",
+    "category": "Swordtail",
+    "details": "",
+    "size": "XL",
+    "rate": "60",
+    "avail": "20",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_224300_327_copy_1224x1224_vhcjmi.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_224300_327_copy_1224x1224_vhcjmi.jpg"
     ]
   }
 ]
