@@ -2,287 +2,170 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JS AQUA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>JS AQUA | Aquarium Fish</title>
+  <meta name="description" content="Explore aquarium fish and aquatic life from JS AQUA.">
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- =========================
-       HEADER
-  ========================== -->
-
+  <!-- HEADER -->
   <header class="topbar">
-
-    <div>
-      <div class="brand-name">JS AQUA</div>
-      <div class="brand-subtitle">Aquarium Catalogue</div>
-    </div>
+    <a class="brand" href="./" aria-label="JS AQUA home">
+      <span class="brand-name">JS AQUA</span>
+      <span class="brand-subtitle">Aquarium Fish & Aquatic Life</span>
+    </a>
 
     <div class="header-actions">
-
-      <button id="searchButton" class="icon-button" aria-label="Search">
-        🔍
+      <button id="searchButton" class="header-button"
+              type="button" aria-label="Search">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="10.8" cy="10.8" r="6.8"></circle>
+          <path d="m16 16 5 5"></path>
+        </svg>
       </button>
 
+      <button id="headerCartButton" class="header-button cart-icon-button"
+              type="button" aria-label="Open shopping cart">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 4h2l2.2 11.1a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 1.9-1.5L22 8H6"></path>
+          <circle cx="10" cy="20" r="1"></circle>
+          <circle cx="18" cy="20" r="1"></circle>
+        </svg>
+        <span id="headerCartCount" class="cart-count hidden">0</span>
+      </button>
     </div>
-
   </header>
 
-
-  <!-- =========================
-       SEARCH
-  ========================== -->
-
+  <!-- SEARCH -->
   <section id="searchPanel" class="search-panel hidden">
-
-    <input
-      id="searchInput"
-      type="search"
-      placeholder="Search fish..."
-    >
-
+    <input id="searchInput" type="search"
+           placeholder="Search fish, shrimp, category..."
+           autocomplete="off">
   </section>
 
-
-  <!-- =========================
-       CATEGORIES
-  ========================== -->
-
-  <nav id="categoryBar" class="category-bar">
-
-    <button
-      class="category-button active"
-      data-category="all">
-      All
-    </button>
-
+  <!-- CATEGORY FILTERS -->
+  <nav id="categoryBar" class="category-bar" aria-label="Product categories">
   </nav>
 
-
-  <!-- =========================
-       PRODUCTS
-  ========================== -->
-
+  <!-- CATALOGUE -->
   <main>
-
     <div id="statusMessage" class="status-message">
       Loading catalogue...
     </div>
 
-    <section
-      id="catalogGrid"
-      class="catalog-grid">
+    <section id="catalogGrid" class="catalog-grid"
+             aria-label="Aquarium catalogue">
     </section>
-
   </main>
 
+  <!-- PRODUCT POPUP -->
+  <section id="productModal" class="modal hidden"
+           role="dialog" aria-modal="true"
+           aria-labelledby="modalName">
 
-  <!-- =========================
-       FLOATING SIDE BUTTONS
-  ========================== -->
-
-  <div class="side-buttons">
-
-    <button
-      id="sideCartButton"
-      class="side-button cart-side"
-      aria-label="Cart">
-
-      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="9" cy="20" r="1.5"/>
-        <circle cx="18" cy="20" r="1.5"/>
-        <path d="M2 3h3l2.7 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L22 7H6"/>
-      </svg>
-
-      <span id="sideCartCount" class="side-cart-count">0</span>
-
-    </button>
-
-    <a
-      id="sideWhatsappButton"
-      class="side-button whatsapp-side"
-      href="#"
-      target="_blank"
-      rel="noopener"
-      aria-label="WhatsApp">
-
-      <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
-        <path d="M20.5 3.5A11 11 0 0 0 3.6 17.3L2 22l4.8-1.6a11 11 0 0 0 16.5-9.5c0-2.9-1.1-5.7-2.8-7.4zM12 20.1c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3 .9.9-2.9-.2-.3a9 9 0 1 1 7.3 3.8zm5.4-6.8c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.5-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.1-.3 0-.5l-.9-2.1c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3z"/>
-      </svg>
-
-    </a>
-
-  </div>
-
-
-  <!-- =========================
-       PRODUCT POPUP
-  ========================== -->
-
-  <div
-    id="productModal"
-    class="modal hidden">
-
-    <div
-      id="modalBackdrop"
-      class="modal-backdrop">
-    </div>
+    <div id="modalBackdrop" class="modal-backdrop"></div>
 
     <article class="product-modal">
 
-      <button
-        id="closeModal"
-        class="close-button"
-        aria-label="Close">
-        ×
+      <button id="closeModal" class="close-button"
+              type="button" aria-label="Close product">
+        &times;
       </button>
 
+      <!-- IMAGE GALLERY AT THE TOP -->
       <div class="modal-gallery">
+        <div id="modalImages" class="modal-images"></div>
 
-        <div
-          id="modalImages"
-          class="modal-images">
-        </div>
-
-        <button
-          id="galleryPrev"
-          class="gallery-arrow prev hidden"
-          aria-label="Previous photo">
-          ‹
+        <button id="galleryPrev" class="gallery-arrow prev hidden"
+                type="button" aria-label="Previous image">
+          &#10094;
         </button>
 
-        <button
-          id="galleryNext"
-          class="gallery-arrow next hidden"
-          aria-label="Next photo">
-          ›
+        <button id="galleryNext" class="gallery-arrow next hidden"
+                type="button" aria-label="Next image">
+          &#10095;
         </button>
 
-        <div
-          id="galleryDots"
-          class="gallery-dots hidden">
-        </div>
-
+        <div id="galleryDots" class="gallery-dots hidden"></div>
       </div>
 
+      <!-- PRODUCT INFORMATION UNDER THE IMAGE -->
       <div class="modal-content">
-
-        <div
-          id="modalCategory"
-          class="modal-category">
-        </div>
+        <div id="modalCategory" class="modal-category"></div>
 
         <h2 id="modalName"></h2>
 
         <div class="modal-meta">
-
-          <span id="modalSize"></span>
-
           <span id="modalId"></span>
-
+          <span id="modalSize"></span>
         </div>
 
-        <div
-          id="modalRate"
-          class="modal-rate">
-        </div>
-
-        <div
-          id="modalAvailability"
-          class="modal-availability">
-        </div>
-
-        <p
-          id="modalDetails"
-          class="modal-details">
-        </p>
+        <div id="modalRate" class="modal-rate"></div>
+        <div id="modalAvailability" class="modal-availability"></div>
 
         <div class="modal-actions">
-
-          <button
-            id="addToCartButton"
-            class="action-button cart-button">
-            Add to Cart
-          </button>
-
-          <a
-            id="whatsappButton"
-            class="action-button whatsapp-button"
-            target="_blank"
-            rel="noopener">
-            Order on WhatsApp
+          <a id="whatsappButton" class="action-button whatsapp-button"
+             href="#" target="_blank" rel="noopener">
+            WhatsApp to Order
           </a>
 
+          <button id="addToCartButton"
+                  class="action-button cart-button"
+                  type="button">
+            Add to Cart
+          </button>
         </div>
 
+        <div class="details-heading">Details</div>
+        <div id="modalDetails" class="modal-details"></div>
       </div>
 
     </article>
+  </section>
 
-  </div>
+  <!-- SHOPPING CART DRAWER -->
+  <section id="cartDrawer" class="cart-drawer hidden"
+           role="dialog" aria-modal="true"
+           aria-labelledby="cartTitle">
 
-
-  <!-- =========================
-       CART DRAWER
-  ========================== -->
-
-  <div
-    id="cartDrawer"
-    class="cart-drawer hidden">
-
-    <div
-      id="cartBackdrop"
-      class="cart-backdrop">
-    </div>
+    <div id="cartBackdrop" class="cart-backdrop"></div>
 
     <aside class="cart-panel">
-
       <header class="cart-header">
+        <h2 id="cartTitle">Your Cart</h2>
 
-        <h2>Your Cart</h2>
-
-        <button
-          id="closeCart"
-          class="close-button cart-close"
-          aria-label="Close cart">
-          ×
+        <button id="closeCart" class="header-button cart-close"
+                type="button" aria-label="Close cart">
+          &times;
         </button>
-
       </header>
 
-      <div
-        id="cartItems"
-        class="cart-items">
-      </div>
+      <div id="cartItems" class="cart-items"></div>
 
       <footer class="cart-footer">
-
         <div class="cart-total-row">
-
-          <span>Total</span>
-
+          <span>Estimated total</span>
           <strong id="cartTotal">—</strong>
-
         </div>
 
-        <a
-          id="cartWhatsappButton"
-          class="action-button whatsapp-button"
-          target="_blank"
-          rel="noopener">
-          Send Cart via WhatsApp
+        <p class="cart-note">
+          Final availability and delivery will be confirmed by JS AQUA.
+        </p>
+
+        <a id="cartWhatsappButton"
+           class="action-button whatsapp-button hidden"
+           href="#" target="_blank" rel="noopener">
+          Send Order on WhatsApp
         </a>
-
       </footer>
-
     </aside>
+  </section>
 
-  </div>
-
-
-  <script src="app.js"></script>
-
+  <script src="app.js" defer></script>
 </body>
 </html>
