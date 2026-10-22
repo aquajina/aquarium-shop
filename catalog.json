@@ -1,5 +1,213 @@
 [
   {
+    "order": 6,
+    "id": "F005",
+    "name": "Fancy Guppy (Assorted Special )",
+    "category": "Guppy",
+    "details": "",
+    "size": "",
+    "rate": "25",
+    "avail": "65",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_223734_973_1__copy_564x564_uyh1gk.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_223734_973_1__copy_564x564_uyh1gk.jpg"
+    ]
+  },
+  {
+    "order": 7,
+    "id": "F006",
+    "name": "Tuxedo Koi Guppy",
+    "category": "Guppy",
+    "details": "",
+    "size": "",
+    "rate": "35",
+    "avail": "50",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_223929_700_copy_1110x1110_a4fbqi.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_223929_700_copy_1110x1110_a4fbqi.jpg"
+    ]
+  },
+  {
+    "order": 8,
+    "id": "F007",
+    "name": "Swordtail Assorted",
+    "category": "Swordtail",
+    "details": "",
+    "size": "XL",
+    "rate": "60",
+    "avail": "20",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_224300_327_copy_1224x1224_vhcjmi.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_224300_327_copy_1224x1224_vhcjmi.jpg"
+    ]
+  },
+  {
+    "order": 9,
+    "id": "K001",
+    "name": "Assorted Koi Carp (3-4 inch)",
+    "category": "Koi",
+    "details": "🎁 Mix & Match Discount\n• Buy a total of 8 Koi (mix any varieties).\n• A special package rate will apply depending on your selection.",
+    "size": "3 - 4 inch",
+    "rate": "60",
+    "avail": "40",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649233/WhatsApp_Image_2026-10-22_at_11.00.00_1_nkidsd.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649233/WhatsApp_Image_2026-10-22_at_11.00.00_1_nkidsd.jpg"
+    ]
+  },
+  {
+    "order": 10,
+    "id": "K002",
+    "name": "Assorted Butterfly Koi Carp  (3-4 inch)",
+    "category": "Koi",
+    "details": "🎁 Mix & Match Discount\n• Buy a total of 8 Koi (mix any varieties).\n• A special package rate will apply depending on your selection.",
+    "size": "3 - 4 inch",
+    "rate": "87.5",
+    "avail": "40",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649232/WhatsApp_Image_2026-10-22_at_11.00.00_2_k8xk7g.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649232/WhatsApp_Image_2026-10-22_at_11.00.00_2_k8xk7g.jpg"
+    ]
+  },
+  {
+    "order": 11,
+    "id": "K003",
+    "name": "Platinum Butterfly Koi Carp",
+    "category": "Koi",
+    "details": "🎁 Mix & Match Discount\n• Buy a total of 8 Koi (mix any varieties).\n• A special package rate will apply depending on your selection.",
+    "size": "3 - 4 inch",
+    "rate": "100",
+    "avail": "0",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649232/WhatsApp_Image_2026-10-22_at_11.00.00_2_k8xk7g.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649232/WhatsApp_Image_2026-10-22_at_11.00.00_2_k8xk7g.jpg"
+    ]
+  },
+  {
+    "order": 12,
+    "id": "K004",
+    "name": "Black Butterfly Koi  (3-4 inch)",
+    "category": "Koi",
+    "details": "🎁 Mix & Match Discount\n• Buy a total of 8 Koi (mix any varieties).\n• A special package rate will apply depending on your selection.",
+    "size": "3 - 4 inch",
+    "rate": "125",
+    "avail": "20",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649234/WhatsApp_Image_2026-10-22_at_11.00.04_t1k1kw.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649234/WhatsApp_Image_2026-10-22_at_11.00.04_t1k1kw.jpg"
+    ]
+  },
+  {
+    "order": 13,
+    "id": "K005",
+    "name": "Black Koi Carp (3-4 inch)",
+    "category": "Koi",
+    "details": "🎁 Mix & Match Discount\n• Buy a total of 8 Koi (mix any varieties).\n• A special package rate will apply depending on your selection.",
+    "size": "3 - 4 inch",
+    "rate": "100",
+    "avail": "0",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649234/WhatsApp_Image_2026-10-22_at_11.00.04_t1k1kw.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649234/WhatsApp_Image_2026-10-22_at_11.00.04_t1k1kw.jpg"
+    ]
+  },
+  {
+    "order": 14,
+    "id": "K006",
+    "name": "Premium Looking koi: Kohaku Look(4-5 inch)",
+    "category": "Koi",
+    "details": "🎁 Mix & Match Discount\n• Buy a total of 8 Koi (mix any varieties).\n• A special package rate will apply depending on your selection.",
+    "size": "3 - 4 inch",
+    "rate": "160",
+    "avail": "5",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649234/WhatsApp_Image_2026-10-22_at_11.00.03_1_w4jfry.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649234/WhatsApp_Image_2026-10-22_at_11.00.03_1_w4jfry.jpg"
+    ]
+  },
+  {
+    "order": 15,
+    "id": "K007",
+    "name": "Premium Looking koi: Ki Utsuri Look (4-5 inch)",
+    "category": "Koi",
+    "details": "🎁 Mix & Match Discount\n• Buy a total of 8 Koi (mix any varieties).\n• A special package rate will apply depending on your selection.",
+    "size": "4 - 5 inch",
+    "rate": "160",
+    "avail": "3",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649233/WhatsApp_Image_2026-10-22_at_11.00.03_uo0fwh.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649233/WhatsApp_Image_2026-10-22_at_11.00.03_uo0fwh.jpg"
+    ]
+  },
+  {
+    "order": 16,
+    "id": "K008",
+    "name": "Premium Looking Koi: Shiro Utsuri Look (4-5 inch)",
+    "category": "Koi",
+    "details": "🎁 Mix & Match Discount\n• Buy a total of 8 Koi (mix any varieties).\n• A special package rate will apply depending on your selection.",
+    "size": "4 - 5 inch",
+    "rate": "160",
+    "avail": "2",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649232/WhatsApp_Image_2026-10-22_at_11.00.02_pxkkhl.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649232/WhatsApp_Image_2026-10-22_at_11.00.02_pxkkhl.jpg"
+    ]
+  },
+  {
+    "order": 17,
+    "id": "K009",
+    "name": "Premium Looking Koi: Tri Colour",
+    "category": "Koi",
+    "details": "🎁 Mix & Match Discount\n• Buy a total of 8 Koi (mix any varieties).\n• A special package rate will apply depending on your selection.",
+    "size": "4 - 5 inch",
+    "rate": "160",
+    "avail": "3",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649233/WhatsApp_Image_2026-10-22_at_11.00.01_xkj7ff.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649233/WhatsApp_Image_2026-10-22_at_11.00.01_xkj7ff.jpg"
+    ]
+  },
+  {
+    "order": 18,
+    "id": "K010",
+    "name": "Mayan Butterfly Koi",
+    "category": "Koi",
+    "details": "🎁 Mix & Match Discount\n• Buy a total of 8 Koi (mix any varieties).\n• A special package rate will apply depending on your selection.",
+    "size": "4 - 5 inch",
+    "rate": "250",
+    "avail": "5",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649233/WhatsApp_Image_2026-10-22_at_11.00.02_1_fm1ubu.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1792649233/WhatsApp_Image_2026-10-22_at_11.00.02_1_fm1ubu.jpg"
+    ]
+  },
+  {
     "order": 1,
     "id": "F001",
     "name": "Lyretail Molly (Assorted)",
@@ -55,60 +263,12 @@
     "details": "",
     "size": "",
     "rate": "45",
-    "avail": "0",
+    "avail": "3",
     "images": [
       "https://res.cloudinary.com/rje7m313/image/upload/v1792007248/IMG_20261014_224021_245_1__copy_903x903_h9ypyz.jpg"
     ],
     "heroes": [
       "https://res.cloudinary.com/rje7m313/image/upload/v1792007248/IMG_20261014_224021_245_1__copy_903x903_h9ypyz.jpg"
-    ]
-  },
-  {
-    "order": 6,
-    "id": "F005",
-    "name": "Fancy Guppy (Assorted Special )",
-    "category": "Guppy",
-    "details": "",
-    "size": "",
-    "rate": "25",
-    "avail": "65",
-    "images": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_223734_973_1__copy_564x564_uyh1gk.jpg"
-    ],
-    "heroes": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_223734_973_1__copy_564x564_uyh1gk.jpg"
-    ]
-  },
-  {
-    "order": 7,
-    "id": "F006",
-    "name": "Tuxedo Koi Guppy",
-    "category": "Guppy",
-    "details": "",
-    "size": "",
-    "rate": "35",
-    "avail": "50",
-    "images": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_223929_700_copy_1110x1110_a4fbqi.jpg"
-    ],
-    "heroes": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_223929_700_copy_1110x1110_a4fbqi.jpg"
-    ]
-  },
-  {
-    "order": 8,
-    "id": "F007",
-    "name": "Swordtail Assorted",
-    "category": "Swordtail",
-    "details": "",
-    "size": "XL",
-    "rate": "60",
-    "avail": "20",
-    "images": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_224300_327_copy_1224x1224_vhcjmi.jpg"
-    ],
-    "heroes": [
-      "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_224300_327_copy_1224x1224_vhcjmi.jpg"
     ]
   }
 ]
