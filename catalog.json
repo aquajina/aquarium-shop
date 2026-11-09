@@ -103,7 +103,7 @@
     "details": "",
     "size": "XL",
     "rate": "60",
-    "avail": "20",
+    "avail": "0",
     "images": [
       "https://res.cloudinary.com/rje7m313/image/upload/v1792007247/IMG_20261014_224300_327_copy_1224x1224_vhcjmi.jpg"
     ],
@@ -279,7 +279,7 @@
     "details": "",
     "size": "L",
     "rate": "25",
-    "avail": "20",
+    "avail": "0",
     "images": [
       "https://res.cloudinary.com/rje7m313/image/upload/v1792649234/WhatsApp_Image_2026-10-22_at_10.59.55_duninv.jpg"
     ],
@@ -351,6 +351,38 @@
     "heroes": [
       "https://res.cloudinary.com/rje7m313/image/upload/v1792649236/WhatsApp_Image_2026-10-22_at_11.00.00_y5nown.jpg",
       "https://res.cloudinary.com/rje7m313/image/upload/v1792649233/WhatsApp_Image_2026-10-22_at_10.59.59_1_lldtjq.jpg"
+    ]
+  },
+  {
+    "order": 23,
+    "id": "T002",
+    "name": "Neon tetra",
+    "category": "Tetra & Danios",
+    "details": "",
+    "size": "",
+    "rate": "20",
+    "avail": "20",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1794205282/Neon-Tetra_b2d4e48c-39b0-42c7-9480-2f594b1cee8d_agya1u.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1794205282/Neon-Tetra_b2d4e48c-39b0-42c7-9480-2f594b1cee8d_agya1u.jpg"
+    ]
+  },
+  {
+    "order": 24,
+    "id": "F008",
+    "name": "Angel Fish",
+    "category": "Assorted",
+    "details": "",
+    "size": "",
+    "rate": "35",
+    "avail": "20",
+    "images": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1794205443/Assorted-Angelfish_uxhls0.jpg"
+    ],
+    "heroes": [
+      "https://res.cloudinary.com/rje7m313/image/upload/v1794205443/Assorted-Angelfish_uxhls0.jpg"
     ]
   }
 ]
